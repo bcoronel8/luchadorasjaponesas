@@ -1,6 +1,6 @@
 package com.github.luchadoresjaponeses.contentcomparator;
 
-import junitparams.JUnitParamsRunner;
+/*import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import junitparams.naming.TestCaseName;
 import org.junit.Assert;
@@ -37,3 +37,4 @@ public class FileContentComparatorTest {
 		return new File("src/test/resources/fileContentParameter/" + fileName);
 	}
 }
+*/

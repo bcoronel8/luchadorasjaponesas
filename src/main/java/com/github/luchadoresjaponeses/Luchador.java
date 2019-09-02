@@ -11,6 +11,11 @@ public class Luchador {
 		this.altura = altura;
 	}
 
+	public Luchador() {
+		this.peso=0;
+		this.altura=0;
+	}
+
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
@@ -24,4 +29,30 @@ public class Luchador {
 	public int hashCode() {
 		return Objects.hash(peso, altura);
 	}
+
+	public boolean domina(Luchador contrincante) {
+		if(this.altura > contrincante.altura && this.peso> contrincante.peso || this.peso == contrincante.peso && this.altura> contrincante.altura ||
+				this.altura == contrincante.altura && this.peso> contrincante.peso)
+				return true;
+		return false;
+	}
+	
+	public double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	
+	
+	
 }

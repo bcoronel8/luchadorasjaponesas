@@ -1,6 +1,6 @@
 package useCases;
 
-import com.github.luchadoresjaponeses.Main;
+/*import com.github.luchadoresjaponeses.Main;
 import com.github.luchadoresjaponeses.contentcomparator.FileContentComparator;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
@@ -26,9 +26,7 @@ public class UseCasesTest {
 		boolean ignored = fileForDelete.delete();
 	}
 
-	/**
-	 *
-	 */
+	
 	@Test
 	@Ignore
 	@Parameters(method = "dataSet")
@@ -59,3 +57,4 @@ public class UseCasesTest {
 		return new File("src/test/resources/useCases/" + fileName);
 	}
 }
+*/
